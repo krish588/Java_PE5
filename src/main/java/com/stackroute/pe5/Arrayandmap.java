@@ -7,7 +7,6 @@ import java.util.regex.Pattern;
 
 public class Arrayandmap{
 
-    //function called and returns boolean type
 
     public boolean countString(String str,String key)
     {
@@ -28,7 +27,7 @@ public class Arrayandmap{
         }
 
     }
-    //Method declared
+
     public Map<String,Boolean> isCountOfElement(String[] str){
         Map<String, Boolean> map = new HashMap<String, Boolean>();
 

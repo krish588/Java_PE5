@@ -9,9 +9,6 @@ public class UpdateList {
 
     public String[] updateList(String[] toUpdate, String toReplace, String newString) {
         String errorMessage = "Found Null value";
-        if ( newString.isBlank() || toUpdate.length <= 0 || toReplace.isBlank() || newString.isEmpty() ||  toReplace.isEmpty()||toUpdate == null) {
-            throw new NullPointerException(errorMessage);
-        }
         arrayList = new ArrayList<>(Arrays.asList(toUpdate));
         int indexOfStirngToReplace = arrayList.indexOf(toReplace);
         if (indexOfStirngToReplace != -1 ) {
