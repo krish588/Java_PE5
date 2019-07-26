@@ -1,0 +1,13 @@
+
+dsquid:S1192F"FDefine a constant instead of duplicating this literal "Melon" 4 times.(¨«ùÉ8òûŠšÂ-
+dsquid:S1192F"FDefine a constant instead of duplicating this literal "Apple" 5 times.(¨«ùÉ8òûŠšÂ-
+esquid:S1192&"GDefine a constant instead of duplicating this literal "Orange" 4 times.(àèÎÊ8òûŠšÂ-
+dsquid:S1192F"FDefine a constant instead of duplicating this literal "Berry" 4 times.(¨«ùÉ8òûŠšÂ-
+dsquid:S1192F"FDefine a constant instead of duplicating this literal "Grape" 4 times.(¨«ùÉ8òûŠšÂ-
+isquid:S1192 "KDefine a constant instead of duplicating this literal "new string" 4 times.(¶…§8òûŠšÂ-
+dsquid:S1192&"FDefine a constant instead of duplicating this literal "apple" 5 times.(àèÎÊ8òûŠšÂ-
+©%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(‚ëô¡şÿÿÿÿ8ê³šÂ-
+esquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(«¤ÜÕ8òûŠšÂ-
+jsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(‚ëô¡şÿÿÿÿ8òûŠšÂ-
+¤%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(«¤ÜÕ8òûŠšÂ-
+}squid:S1192"ZDefine a constant instead of duplicating this literal "Null or empty value given" 4 times.(æúç©üÿÿÿÿ8òûŠšÂ-
