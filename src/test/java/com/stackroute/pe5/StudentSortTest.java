@@ -39,12 +39,12 @@ public class StudentSortTest {
 
     @Test
     public void givenListShouldReturnTheSortedList() {
-        Student student1 = new Student(10, "Raj", 20);
-        Student student2 = new Student(20, "Raju", 25);
-        Student student3 = new Student(30, "Dhoni", 37);
-        Student student4 = new Student(40, "SK", 23);
-        Student student5 = new Student(50, "Gopi", 26);
-        Student student6 = new Student(60, "Praveen", 25);
+        Student student1 = new Student(10, "A", 20);
+        Student student2 = new Student(20, "B", 25);
+        Student student3 = new Student(30, "C", 37);
+        Student student4 = new Student(40, "D", 23);
+        Student student5 = new Student(50, "E", 26);
+        Student student6 = new Student(60, "F", 25);
         List<Student> studentList = new ArrayList<>();
         studentList.add(student1);
         studentList.add(student2);
@@ -68,12 +68,12 @@ public class StudentSortTest {
 
     @Test
     public void givenListShouldReturnTheExpectedSortedList() {
-        Student student1 = new Student(10, "Raj", 25);
-        Student student2 = new Student(20, "Raj", 25);
-        Student student3 = new Student(30, "Dhoni", 37);
-        Student student4 = new Student(40, "SK", 23);
-        Student student5 = new Student(50, "Gopi", 26);
-        Student student6 = new Student(60, "Praveen", 25);
+        Student student1 = new Student(10, "A", 25);
+        Student student2 = new Student(20, "B", 25);
+        Student student3 = new Student(30, "C", 37);
+        Student student4 = new Student(40, "D", 23);
+        Student student5 = new Student(50, "E", 26);
+        Student student6 = new Student(60, "F", 25);
         List<Student> studentList = new ArrayList<>();
         studentList.add(student1);
         studentList.add(student2);
@@ -97,7 +97,7 @@ public class StudentSortTest {
     public void givenNullShouldReturnTheNullPointerException() {
         List<Student> studentList = new ArrayList<>();
         studentList.add(new Student(10, null, 25));
-        studentList.add(new Student(20, "Raj", 25));
+        studentList.add(new Student(20, "A", 25));
         studentSort.setStudentList(studentList);
     }
 
@@ -105,19 +105,19 @@ public class StudentSortTest {
     @Test(expected = RuntimeException.class)
     public void givenNegativeIntegerShouldReturnTheRuntimeException() {
         List<Student> studentList = new ArrayList<>();
-        studentList.add(new Student(10, "Raj", -25));
-        studentList.add(new Student(20, "Raj", 25));
+        studentList.add(new Student(10, "A", -25));
+        studentList.add(new Student(20, "A", 25));
         studentSort.setStudentList(studentList);
     }
 
     @Test
     public void givenListShouldNotReturnTheExpectedSortedList() {
-        Student student1 = new Student(10, "Raj", 25);
-        Student student2 = new Student(20, "Raj", 25);
-        Student student3 = new Student(30, "Dhoni", 37);
-        Student student4 = new Student(40, "SK", 23);
-        Student student5 = new Student(50, "Gopi", 26);
-        Student student6 = new Student(60, "Praveen", 25);
+        Student student1 = new Student(10, "A", 25);
+        Student student2 = new Student(20, "A", 25);
+        Student student3 = new Student(30, "B", 37);
+        Student student4 = new Student(40, "C", 23);
+        Student student5 = new Student(50, "D", 26);
+        Student student6 = new Student(60, "E", 25);
         List<Student> studentList = new ArrayList<>();
         studentList.add(student1);
         studentList.add(student2);
